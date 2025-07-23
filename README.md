@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.12+-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Build](https://img.shields.io/badge/Build-CMake-success)
-
 Высокопроизводительная библиотека для работы с JSON, реализованная на C с Python C API.
 
 ## 📦 Особенности
@@ -14,15 +13,12 @@
 - Совместимость с Python 3.12+
 
 ## 🛠 Установка
-
 Библиотека требует компиляции. Убедитесь, что у вас установлены:
-
 - Python 3.12+ (включая development headers)
-- CMake 3.12+
+- CMake
 - C компилятор (GCC, MinGW, MSVC)
 
 ### Шаг 1: Подготовка окружения
-
 #### Для Linux (Debian/Ubuntu):
 ```bash
 sudo apt-get update
