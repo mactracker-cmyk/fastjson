@@ -1,7 +1,6 @@
 # FastJSON Python C API ⚡
 
 ![Python](https://img.shields.io/badge/Python-3.12+-blue?logo=python)
-![C](https://img.shields.io/badge/C-11-yellow?logo=c)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Build](https://img.shields.io/badge/Build-CMake-success)
 
