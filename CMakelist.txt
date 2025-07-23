@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.14)
+project(fastjson C)
+
+set(Python3_ROOT_DIR "//Python version path")
+find_package(Python3 REQUIRED COMPONENTS Development)
+
+include_directories("Python version path/include")
+link_directories("Python version path/libs")
+
+add_library(fastjson MODULE fastjson.c)
+target_include_directories(fastjson PRIVATE ${Python3_INCLUDE_DIRS})
+target_link_libraries(fastjson PRIVATE ${Python3_LIBRARIES})
+
+set_target_properties(fastjson PROPERTIES PREFIX "" SUFFIX ".pyd")
